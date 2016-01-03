@@ -1,0 +1,31 @@
+{
+  "name": "sotd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shadows of the Demon Lord character management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Lemmon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "browserify": "^12.0.1",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mithril": "^0.2.0",
+    "morgan": "^1.6.1",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "connect-livereload": "^0.5.4",
+    "gulp": "^3.9.0",
+    "gulp-live-server": "0.0.29",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
