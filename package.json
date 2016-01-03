@@ -1,6 +1,6 @@
 {
   "name": "sotd",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "Shadows of the Demon Lord character management",
   "main": "index.js",
