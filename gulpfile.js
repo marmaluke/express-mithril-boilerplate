@@ -4,6 +4,11 @@ var gulp = require('gulp'),
     babelify = require('babelify'),
     source = require('vinyl-source-stream');
 
+gulp.task('styles', function() {
+    return gulp.src('./node_modules/purecss/build/pure-min.css')
+        .pipe(gulp.dest('./server/static/css'));
+});
+
 gulp.task('build', function() {
     return browserify('./client/js/app.js', {debug: true})
         .transform(babelify)
@@ -12,7 +17,7 @@ gulp.task('build', function() {
         .pipe(gulp.dest('./server/static/js'));
 });
 
-gulp.task('watch', ['build'], function() {
+gulp.task('watch', ['build', 'styles'], function() {
     gulp.watch('./client/js/**/*.js', ['build']);
 });
 

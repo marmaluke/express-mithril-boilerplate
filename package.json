@@ -18,6 +18,7 @@
     "jade": "^1.11.0",
     "mithril": "^0.2.0",
     "morgan": "^1.6.1",
+    "purecss": "^0.6.0",
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
